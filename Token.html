@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Verification</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="Token.css" rel="stylesheet">
+</head>
+<body>
+    <script defer type="text/javascript" src="app.js"></script>
+    <div class="code-verification-container">
+        <div class="upper flex-jusitfy-center">
+            <div id="title-container">
+                <span class="icon material-icons">phone_iphone</span>
+                <h1>Code Verification</h1>
+            </div>
+            <p id="instruction">Please enter the code received.</p>
+            <div id="code-container">
+                <input type="number" class="input number">
+                <input type="number" class="input number">
+                <input type="number" class="input number">
+                <input type="number" class="input number">
+            </div>
+            <div id="result-container">
+                <div id="refresh" class="flex-align-center">
+                    <span class="icon material-icons">refresh</span>
+                    <p class="message">Regenerate code.</p>
+                </div>
+                <div id="result-container">
+                    <div id="success" class="flex-align-center">
+                        <span class="icon material-icons">check_circle</span>
+                        <p class="message">Code is correct.</p>
+                    </div>
+                    <div id="result-container">
+                        <div id="error" class="flex-align-center">
+                            <span class="icon material-icons">error</span>
+                            <p class="message">Code is incorrect.</p>
+                        </div>
+                 </div>      
+        </div>
+    <div id="insert-panel-container" class="lower">
+             <div class="row">
+                 <div class="insert-number" data-value="1">
+                     <div class="effect">1</div>
+                 </div>
+                 <div class="insert-number" data-value="2">
+                    <div class="effect">2</div>
+                </div>
+                <div class="insert-number" data-value="3">
+                    <div class="effect">3</div>
+                </div>
+             </div> 
+             <div class="row">
+                <div class="insert-number" data-value="4">
+                    <div class="effect">4</div>
+                </div>
+                <div class="insert-number" data-value="5">
+                   <div class="effect">5</div>
+               </div>
+               <div class="insert-number" data-value="6">
+                   <div class="effect">6</div>
+               </div>
+            </div>
+            <div class="row">
+                <div class="insert-number" data-value="7">
+                    <div class="effect">7</div>
+                </div>
+                <div class="insert-number" data-value="8">
+                   <div class="effect">8</div>
+               </div>
+               <div class="insert-number" data-value="9">
+                   <div class="effect">9</div>
+               </div>
+            </div>
+            <div class="row">
+                <div class="insert-number" data-value="">
+                    <div class="effect"></div>
+                </div>
+                <div class="insert-number" data-value="0">
+                   <div class="effect">0</div>
+               </div>
+               <div class="delete-number" data-value="-1">
+                   <div class="effect">
+                       <span class="material-icons">arrow_back</span>
+                   </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
